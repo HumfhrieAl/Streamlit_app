@@ -3,7 +3,7 @@ from tensorflow.keras.models import load_model
 import numpy as np
 
 # Loading trained DL model
-model = load_model(r'Loan_default_prediction_project_model.h5')
+model = load_model('Loan_default_prediction_project_model.h5')
 
 # Defining the features of model expects
 features = ['InterestRate', 'LoanTerm', 'Age', 'Income', 'LoanAmount', 'CreditScore', 'MonthsEmployed']
