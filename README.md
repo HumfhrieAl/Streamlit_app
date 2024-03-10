@@ -34,7 +34,7 @@ This will launch the app in your web browser, typically at http://localhost:8501
 ## Usage
 On the app's main page, you'll find various input fields for user data such as age, income, loan amount, credit score, employment type, and more.
 Enter your information into the corresponding fields.
-Click the submit button (if applicable) or the app may automatically update as you enter values.
+The app automatically update as you enter values.
 The app will display the predicted probability of loan default and classify the risk as "High" (above 0.5 probability) or "Low" (below 0.5 probability).
 
 ## Disclaimer
